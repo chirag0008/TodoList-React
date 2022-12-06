@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kenia&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+.div1{
+    height:100vh;
+    width:100%;
+    /* background:linear-gradient(to right,cornflowerblue,purple); */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:steelblue ;
+}
+.div2{
+    height:70vh;
+    width:50vh;
+    background-color:white;
+    border-radius:6vh;
+    box-shadow: 1vh 1vh 1vh black;
+    
+    
+}
+.hd1{
+    text-align:center;
+    background-color:crimson;
+    color:wheat;
+    font-family:  'Kenia', cursive;
+    
+   
+}
+.inp1{
+    margin-left:4vw;
+    border-top:0vh;
+    border-left:0vh;
+    border-right:0vh;
+    border-bottom:1vh solid purple;
+    text-align:center;
+    font-size:2vh;
+}
+.btn{
+    margin-left:3vw;
+    font-size:5vh;
+    border-radius:50px;
+    height:6vh;
+    width:3vw;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+.ull{
+    margin-left: 30px;
+}
+.listItemm{
+    margin-left:4vw;
+    font-size:3vh;
+    list-style-type: none;
+    
+}
+.lii{
+    font-size:5vh;
+    display:inline;
+    
+
+}
+.btn2{
+    height:6vh;
+    width:3vw;
+    border-radius:50px;
+    font-size:3vh;
+    font-weight:bold;
+    background-color: crimson;
+    cursor: pointer;
+   
+}
